@@ -3,12 +3,13 @@
   <PropertyGroup>
     <TargetFramework>netstandard1.0</TargetFramework>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <Authors>M. Vroone</Authors>
+    <Company>It-actief</Company>
+    <Product>Mondop Abstractions</Product>
+    <Copyright>Copyright 2017 by It-actief</Copyright>
+    <RepositoryUrl>https://github.com/MondopDotCom/Mondop.Abstractions</RepositoryUrl>
+    <PackageLicenseUrl>https://github.com/MondopDotCom/Mondop.Abstractions/blob/master/LICENSE</PackageLicenseUrl>
+    <Version>1.0.0-Alpha002</Version>
   </PropertyGroup>
-
-  <ItemGroup>
-    <Compile Remove="IoC\**" />
-    <EmbeddedResource Remove="IoC\**" />
-    <None Remove="IoC\**" />
-  </ItemGroup>
 
 </Project>
