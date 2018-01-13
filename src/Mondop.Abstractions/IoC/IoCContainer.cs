@@ -2,7 +2,7 @@
 {
     public interface IIoCContainer
     {
-        void Register<TService, TInterface>();
-        void RegisterSingleton<TServie, TInterface>();
+        void Register<TService, TImplementation>() where TService: class where TImplementation: class, TService;
+        void RegisterSingleton<TService, TImplementation>() where TService: class where TImplementation: class, TService;
     }
 }
