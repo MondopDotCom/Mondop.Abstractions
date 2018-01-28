@@ -10,7 +10,7 @@
     <Copyright>Copyright 2017 by It-actief</Copyright>
     <RepositoryUrl>https://github.com/MondopDotCom/Mondop.Abstractions</RepositoryUrl>
     <PackageLicenseUrl>https://github.com/MondopDotCom/Mondop.Abstractions/blob/master/LICENSE</PackageLicenseUrl>
-    <Version>1.0.1</Version>
+    <Version>1.0.2-ALPHA003</Version>
     <PackageProjectUrl>http://www.mondop.com</PackageProjectUrl>
     <Description>Package containing abstract interfaces for Logging and IoC</Description>
     <PackageReleaseNotes>1.0.0 - Added ILogger, IIoCModule and IIoCContainer
