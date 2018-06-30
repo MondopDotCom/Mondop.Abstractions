@@ -9,5 +9,10 @@ namespace Mondop.Abstractions.IoC
         void RegisterSingleton<TService, TImplementation>() where TService: class where TImplementation: class, TService;
         void Register<TService>() where TService: class;
         void RegisterCollection<TService>(IEnumerable<Type> implementations) where TService : class;
+
+        void Build();
+
+        TService GetInstance<TService>() where TService : class;
+        IEnumerable<TService> GetAllInstances<TService>() where TService : class;
     }
 }
